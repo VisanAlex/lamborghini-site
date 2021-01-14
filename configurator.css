@@ -22,12 +22,11 @@ body {
   font-family: "UnboundPro-bold" !important;
 }
 
-.btn-large {
+.btn {
   font-family: "Montserrat" !important;
   color: black !important;
   border-radius: 0.5rem !important;
   margin-bottom: 4rem;
-  width: 150px !important;
 }
 .btn-large:hover {
   background-color: #858585 !important;
@@ -35,4 +34,14 @@ body {
 .select-dropdown li img {
   width: 100px !important;
   height: 80px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .header h2 {
+    font-size: 2.4rem;
+  }
+  .imagineconfigurator {
+    width: 100%;
+    height: 100%;
+  }
 }
