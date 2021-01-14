@@ -1,313 +1,47 @@
+.imagineconfigurator {
+  width: 70%;
+  height: 50%;
+  margin-top: -3rem !important;
+  border-radius: 1rem;
+}
+nav {
+  position: fixed;
+  z-index: 10;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 @font-face {
   font-family: "UnboundPro-bold";
   src: url("./unboundpro-bold/UnboundPro-Bold.otf") format("opentype");
 }
 
-* {
-  font-family: "Montserrat", sans-serif;
+.header h2 {
+  margin-top: 6rem !important;
+  font-family: "UnboundPro-bold" !important;
 }
 
-body {
-  background-color: black !important;
+.btn {
+  font-family: "Montserrat" !important;
+  color: black !important;
+  border-radius: 0.5rem !important;
+  margin-bottom: 4rem;
 }
-
-.logo {
-  width: 30px !important;
-  height: 30px !important;
+.btn-large:hover {
+  background-color: #858585 !important;
 }
-
-.navlist {
-  margin-left: 5rem !important;
-}
-
-.navlist a:hover,
-.navlist b:hover,
-.navlist c:hover {
-  opacity: 80% !important;
-}
-
-.slides {
-  width: 100% !important;
-  height: 89vh !important;
-}
-
-.slider {
-  height: 900px !important;
-}
-
-.slider h2 {
-  font-family: "UnboundPro-bold";
-  text-shadow: 5px 12px 10px black !important ;
-}
-
-.huracan {
-  margin-left: 32rem !important;
-  font-size: 7rem !important;
-  margin-top: -5rem !important;
-}
-
-.huracan2 {
-  margin-left: 33rem !important;
-  font-family: "Montserrat", sans-serif;
-  text-shadow: 5px 12px 10px black !important;
-}
-
-.urus {
-  font-size: 9rem !important;
-  margin-top: -1rem !important;
-  margin-left: 1rem !important;
-  background-color: transparent !important;
-}
-
-.urus2 {
-  margin-top: -1rem !important;
-  margin-left: 1rem !important;
-  text-shadow: 5px 12px 10px black !important;
-  color: white !important;
-  font-weight: bolder !important;
-  font-family: "Montserrat", sans-serif;
-}
-
-.aventador {
-  margin-right: 11rem !important;
-  margin-top: -4rem !important;
-  font-size: 7rem !important;
-  background-color: transparent !important;
-}
-
-.aventador2 {
-  margin-right: 14rem !important;
-  background-color: transparent !important;
-  font-family: "Montserrat", sans-serif;
-  text-shadow: 5px 12px 10px black !important;
-}
-
-.indicator-item.active,
-.indicator-item {
-  background-color: rgb(43, 43, 43) !important;
-  visibility: hidden !important;
-}
-
-.card {
-  margin-left: 5.5rem !important;
-  margin-top: 5.3rem !important;
-  background-color: black !important;
-  color: white !important;
-}
-
-span {
-  font-family: "UnboundPro-bold";
-}
-
-img {
-  width: 300px;
-  height: 220px;
-}
-
-.ursus {
-  width: 250px !important;
-  padding-right: 3rem !important;
-}
-
-.titlumodels {
-  margin-top: 2rem;
-  font-family: "UnboundPro-bold";
-}
-
-.urus3 {
-  margin-left: -3rem !important;
-}
-
-.urus4 {
-  margin-left: 9rem !important;
-}
-
-.ursus {
-  width: 420px !important;
-}
-
-@media only screen and (max-width: 768px) {
-  .models img {
-    width: 340px !important;
-    margin-right: 15rem !important;
-    margin-left: -5rem !important;
-  }
-
-  .ursus3 {
-    margin-left: -4.3rem !important;
-    width: 250px !important;
-    height: 250px !important;
-  }
-
-  .huracan {
-    align-items: center;
-  }
-
-  .titlumodels {
-    margin-left: 6rem !important;
-  }
-
-  .slider {
-    width: 400px !important;
-  }
-
-  .card-title {
-    margin-right: 6rem !important;
-  }
-
-  .bastarca {
-    margin-right: 61rem !important;
-  }
-}
-
-.tab:hover {
-  transition: all 0.1s ease-in-out;
-  border-bottom: 3px solid white !important;
-}
-
-.talent img {
-  height: 480px !important;
-  width: 790px !important;
-  opacity: 20%;
-}
-
-.tabs .tab a {
-  color: #000;
-}
-
-.tabs .tab a:hover {
-  background-color: black;
-  color: #000;
-}
-
-.tabs .tab a.active {
-  background-color: rgb(0, 0, 0) !important;
-  color: #000;
-}
-
-.tabs .indicator {
-  background-color: rgb(255, 255, 255) !important;
-  color: white !important;
-}
-
-#test-swipe-1 {
-  position: relative;
-}
-
-#test-swipe-1 button {
-  position: absolute;
-  height: 7rem !important;
-  top: 45%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #333333;
-  color: white;
-  font-size: 16px;
-  border-radius: 10rem !important;
-}
-
-#test-swipe-1 button:hover {
-  background-color: black;
-}
-#test-swipe-2 {
-  position: relative;
-}
-
-#test-swipe-2 button {
-  position: absolute;
-  height: 7rem !important;
-  top: 45%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #333333;
-  color: white;
-  font-size: 16px;
-  border-radius: 10rem !important;
-}
-
-#test-swipe-2 button:hover {
-  background-color: black;
-}
-#test-swipe-3 {
-  position: relative;
-}
-
-#test-swipe-3 button {
-  position: absolute;
-  height: 7rem !important;
-  top: 45%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #333333;
-  color: white !important;
-  font-size: 16px;
-  border-radius: 10rem !important;
-}
-
-#test-swipe-3 button:hover {
-  background-color: black;
-}
-
-.smecherie {
-  margin-left: 10rem !important;
-}
-
-.talent img {
-  margin-left: 12rem !important;
-}
-
-.alunelu {
-  margin-top: 10rem !important;
-  font-family: "UnboundPro-bold";
-}
-
-.mineru option {
-  color: white !important;
-}
-
-.configurator {
-  width: 27rem !important;
-  margin-top: 8rem !important;
-}
-
-h2 {
-  font-family: "UnboundPro-bold";
-}
-
-.select-dropdown {
-  color: white !important;
-  background-color: black !important;
-}
-
 .select-dropdown li img {
+  width: 100px !important;
   height: 80px !important;
-  width: 130px !important;
-  margin: 5px 15px;
-  float: right;
 }
 
-.dropdown-content li > a,
-.dropdown-content li > span {
-  font-size: 16px;
-  color: #ffffff !important;
-  display: block;
-  line-height: 22px;
-  padding: 14px 16px;
-}
-
-.imagineconfigurator {
-  margin-left: 45rem !important;
-  width: 1200px !important;
-  height: 700px !important;
-  margin-bottom: 2rem !important;
-  margin-top: -13rem !important;
-  border-radius: 3rem !important;
-}
-
-.buynow {
-  margin-left: 15rem !important;
-  margin-top: -55rem !important;
+@media only screen and (max-width: 600px) {
+  .header h2 {
+    font-size: 2.4rem;
+  }
+  .imagineconfigurator {
+    width: 100%;
+    height: 100%;
+  }
 }
