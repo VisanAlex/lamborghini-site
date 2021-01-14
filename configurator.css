@@ -5,9 +5,6 @@
 
 * {
   font-family: "Montserrat", sans-serif;
-  transition: 3s !important;
-  transition-timing-function: ease-in-out !important;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -245,7 +242,7 @@ img {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #333333;
-  color: white;
+  color: white !important;
   font-size: 16px;
   border-radius: 10rem !important;
 }
@@ -265,4 +262,52 @@ img {
 .alunelu {
   margin-top: 10rem !important;
   font-family: "UnboundPro-bold";
+}
+
+.mineru option {
+  color: white !important;
+}
+
+.configurator {
+  width: 27rem !important;
+  margin-top: 8rem !important;
+}
+
+h2 {
+  font-family: "UnboundPro-bold";
+}
+
+.select-dropdown {
+  color: white !important;
+  background-color: black !important;
+}
+
+.select-dropdown li img {
+  height: 80px !important;
+  width: 130px !important;
+  margin: 5px 15px;
+  float: right;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  font-size: 16px;
+  color: #ffffff !important;
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+}
+
+.imagineconfigurator {
+  margin-left: 45rem !important;
+  width: 1200px !important;
+  height: 700px !important;
+  margin-bottom: 2rem !important;
+  margin-top: -13rem !important;
+  border-radius: 3rem !important;
+}
+
+.buynow {
+  margin-left: 15rem !important;
+  margin-top: -55rem !important;
 }
