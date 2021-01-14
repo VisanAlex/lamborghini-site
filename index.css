@@ -9,7 +9,10 @@
   transition-timing-function: ease-in-out !important;
   scroll-behavior: smooth;
 }
-
+nav {
+  position: fixed;
+  z-index: 10;
+}
 body {
   background-color: black !important;
 }
@@ -46,11 +49,12 @@ body {
 .huracan {
   margin-left: 32rem !important;
   font-size: 7rem !important;
-  margin-top: -5rem !important;
+  margin-top: -4rem !important;
 }
 
 .huracan2 {
   margin-left: 33rem !important;
+
   font-family: "Montserrat", sans-serif;
   text-shadow: 5px 12px 10px black !important;
 }
@@ -169,9 +173,9 @@ img {
 }
 
 .talent img {
-  height: 480px !important;
-  width: 790px !important;
-  opacity: 20%;
+  height: 800px !important;
+  width: 1080px !important;
+  opacity: 40%;
 }
 
 .tabs .tab a {
