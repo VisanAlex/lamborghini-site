@@ -1,0 +1,266 @@
+@font-face {
+  font-family: "UnboundPro-bold";
+  src: url("./unboundpro-bold/UnboundPro-Bold.otf") format("opentype");
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: black !important;
+}
+
+.logo {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.navlist {
+  margin-left: 5rem !important;
+}
+
+.navlist a:hover,
+.navlist b:hover,
+.navlist c:hover {
+  opacity: 80% !important;
+}
+
+.slides {
+  width: 100% !important;
+  height: 89vh !important;
+}
+
+.slider {
+  height: 900px !important;
+}
+
+.slider h2 {
+  font-family: "UnboundPro-bold";
+  text-shadow: 5px 12px 10px black !important ;
+}
+
+.huracan {
+  margin-left: 32rem !important;
+  font-size: 7rem !important;
+  margin-top: -5rem !important;
+}
+
+.huracan2 {
+  margin-left: 33rem !important;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 5px 12px 10px black !important;
+}
+
+.urus {
+  margin-left: 60rem !important;
+  font-size: 9rem !important;
+  margin-top: -4rem !important;
+  background-color: transparent !important;
+}
+
+.urus2 {
+  font-size: 3rem !important;
+  margin-left: 70rem !important;
+  margin-top: -0.9rem !important;
+  text-shadow: 5px 12px 10px black !important;
+  color: white !important;
+  font-weight: bolder !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.aventador {
+  margin-right: 11rem !important;
+  margin-top: -4rem !important;
+  font-size: 7rem !important;
+  background-color: transparent !important;
+}
+
+.aventador2 {
+  margin-right: 14rem !important;
+  background-color: transparent !important;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 5px 12px 10px black !important;
+}
+
+.indicator-item.active,
+.indicator-item {
+  background-color: rgb(43, 43, 43) !important;
+  visibility: hidden !important;
+}
+
+.card {
+  margin-left: 5.5rem !important;
+  margin-top: 5.3rem !important;
+  background-color: black !important;
+  color: white !important;
+}
+
+span {
+  font-family: "UnboundPro-bold";
+}
+
+img {
+  width: 300px;
+  height: 250px;
+}
+
+.ursus {
+  width: 290px !important;
+  margin-left: 3rem;
+}
+
+.titlumodels {
+  margin-top: 2rem;
+  font-family: "UnboundPro-bold";
+}
+
+.urus3 {
+  margin-left: -3rem !important;
+}
+
+.urus4 {
+  margin-left: 9rem !important;
+}
+
+.ursus {
+  width: 420px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .models img {
+    width: 340px !important;
+    margin-right: 15rem !important;
+    margin-left: -5rem !important;
+  }
+
+  .ursus3 {
+    margin-left: -4.3rem !important;
+    width: 250px !important;
+    height: 250px !important;
+  }
+
+  .huracan {
+    align-items: center;
+  }
+
+  .titlumodels {
+    margin-left: 6rem !important;
+  }
+
+  .slider {
+    width: 400px !important;
+  }
+
+  .card-title {
+    margin-right: 6rem !important;
+  }
+
+  .bastarca {
+    margin-right: 61rem !important;
+  }
+}
+
+.tab:hover {
+  transition: all 0.1s ease-in-out;
+  border-bottom: 3px solid white !important;
+}
+
+.talent img {
+  height: 480px !important;
+  width: 790px !important;
+  opacity: 20%;
+}
+
+.tabs .tab a {
+  color: #000;
+}
+
+.tabs .tab a:hover {
+  background-color: black;
+  color: #000;
+}
+
+.tabs .tab a.active {
+  background-color: rgb(0, 0, 0) !important;
+  color: #000;
+}
+
+.tabs .indicator {
+  background-color: rgb(255, 255, 255) !important;
+  color: white !important;
+}
+
+#test-swipe-1 {
+  position: relative;
+}
+
+#test-swipe-1 button {
+  position: absolute;
+  height: 7rem !important;
+  top: 45%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #333333;
+  color: white;
+  font-size: 16px;
+  border-radius: 10rem !important;
+}
+
+#test-swipe-1 button:hover {
+  background-color: black;
+}
+#test-swipe-2 {
+  position: relative;
+}
+
+#test-swipe-2 button {
+  position: absolute;
+  height: 7rem !important;
+  top: 45%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #333333;
+  color: white;
+  font-size: 16px;
+  border-radius: 10rem !important;
+}
+
+#test-swipe-2 button:hover {
+  background-color: black;
+}
+#test-swipe-3 {
+  position: relative;
+}
+
+#test-swipe-3 button {
+  position: absolute;
+  height: 7rem !important;
+  top: 45%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #333333;
+  color: white;
+  font-size: 16px;
+  border-radius: 10rem !important;
+}
+
+#test-swipe-3 button:hover {
+  background-color: black;
+}
+
+.smecherie {
+  margin-left: 10rem !important;
+}
+
+.talent img {
+  margin-left: 15rem !important;
+}
+
+.alunelu {
+  margin-top: 10rem !important;
+  font-family: "UnboundPro-bold";
+}
