@@ -5,7 +5,7 @@
 
 * {
   font-family: "Montserrat", sans-serif;
-  transition: 3s !important;
+  transition: 2s !important;
   transition-timing-function: ease-in-out !important;
   scroll-behavior: smooth;
 }
@@ -265,4 +265,7 @@ img {
 .alunelu {
   margin-top: 10rem !important;
   font-family: "UnboundPro-bold";
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25) {
 }
