@@ -5,11 +5,8 @@
 
 * {
   font-family: "Montserrat", sans-serif;
-<<<<<<< HEAD
   transition: 2s !important;
-=======
 
->>>>>>> fd902c43e29456a69b6cbf6593142a32b33c99e2
   transition-timing-function: ease-in-out !important;
   scroll-behavior: smooth;
 }
