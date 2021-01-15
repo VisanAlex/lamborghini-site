@@ -56,3 +56,30 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem !important;
 }
+
+.borderXwidth a:before,
+.borderXwidth a:after {
+  position: absolute;
+  opacity: 0;
+  width: 0%;
+  height: 2px;
+  content: "";
+  background: #fff;
+  transition: all 0.3s;
+}
+
+.borderXwidth a:before {
+  left: 0px;
+  top: 0px;
+}
+
+.borderXwidth a:after {
+  right: 0px;
+  bottom: 0px;
+}
+
+.borderXwidth a:hover:before,
+.borderXwidth a:hover:after {
+  opacity: 1;
+  width: 100%;
+}

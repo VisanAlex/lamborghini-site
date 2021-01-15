@@ -5,6 +5,8 @@
 
 * {
   font-family: "Montserrat", sans-serif;
+  transition-timing-function: ease-in-out !important;
+  scroll-behavior: smooth;
 }
 nav {
   position: fixed;
@@ -291,7 +293,7 @@ img {
   position: relative;
 }
 
-#test-swipe-1 button {
+#test-swipe-1 {
   position: absolute;
   height: 7rem !important;
   top: 45%;
@@ -361,5 +363,29 @@ img {
   font-family: "UnboundPro-bold";
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.25) {
+.borderXwidth a:before,
+.borderXwidth a:after {
+  position: absolute;
+  opacity: 0;
+  width: 0%;
+  height: 2px;
+  content: "";
+  background: #fff;
+  transition: all 0.3s;
+}
+
+.borderXwidth a:before {
+  left: 0px;
+  top: 0px;
+}
+
+.borderXwidth a:after {
+  right: 0px;
+  bottom: 0px;
+}
+
+.borderXwidth a:hover:before,
+.borderXwidth a:hover:after {
+  opacity: 1;
+  width: 100%;
 }
