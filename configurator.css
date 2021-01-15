@@ -44,4 +44,15 @@ body {
     width: 100%;
     height: 100%;
   }
+
+  .buynowlabel {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.1rem !important;
+    margin-top: -5rem !important;
+  }
+}
+
+.buynowlabel {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem !important;
 }
