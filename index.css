@@ -310,7 +310,7 @@ img {
 
 #test-swipe-1 button:hover {
   background-color: white;
-  color: black !important;
+  color: black;
 }
 #test-swipe-2 {
   position: relative;
@@ -475,6 +475,70 @@ img {
 }
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  #test-swipe-1 img {
+    margin-left: -3rem !important;
+    width: 120% !important;
+    height: 100% !important;
+  }
+  #test-swipe-2 img {
+    margin-left: -3rem !important;
+    width: 120% !important;
+    height: 100% !important;
+  }
+  #test-swipe-3 img {
+    margin-left: -3rem !important;
+    width: 120% !important;
+    height: 100% !important;
+  }
+
+  #test-swipe-1 button {
+    position: absolute;
+    height: 7rem !important;
+    top: 150%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+  #test-swipe-2 button {
+    position: absolute;
+    height: 7rem !important;
+    top: 150%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+  #test-swipe-3 button {
+    position: absolute;
+    height: 7rem !important;
+    top: 150%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+
+  .branzet {
+    font-size: 1rem !important;
+  }
+  .tabs {
+    margin-left: 1rem !important;
+    font-size: 0.1rem !important;
+  }
+
+  .configurator2 {
+    padding-left: 4rem !important;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
   #test-swipe-1 img {
     margin-left: -3rem !important;
     width: 120% !important;
