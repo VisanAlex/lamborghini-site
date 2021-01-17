@@ -57,29 +57,7 @@ body {
   font-size: 1.5rem !important;
 }
 
-.borderXwidth a:before,
-.borderXwidth a:after {
-  position: absolute;
-  opacity: 0;
-  width: 0%;
-  height: 2px;
-  content: "";
-  background: #fff;
-  transition: all 0.3s;
-}
-
-.borderXwidth a:before {
-  left: 0px;
-  top: 0px;
-}
-
-.borderXwidth a:after {
-  right: 0px;
-  bottom: 0px;
-}
-
-.borderXwidth a:hover:before,
-.borderXwidth a:hover:after {
-  opacity: 1;
-  width: 100%;
+.text-swipe-1 a:hover {
+  border-top: 2px solid white !important;
+  transition: cubic-bezier(0.77, 0, 0.175, 1) 0.2s;
 }
