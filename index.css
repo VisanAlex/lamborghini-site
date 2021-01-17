@@ -261,53 +261,56 @@ img {
 
 .tab:hover {
   transition: all 0.1s ease-in-out;
-  border-bottom: 3px solid white !important;
+  border-bottom: 3px solid black !important;
 }
 
-.talent img {
-  height: 800px !important;
-  width: 1080px !important;
-  opacity: 40%;
+.talent img,
+.talent2 img,
+.talent3 img {
+  height: 400px !important;
+  width: 1100px !important;
 }
 
-.tabs .tab a {
-  color: #000;
+.tabs,
+.tab a {
+  color: black !important;
 }
 
 .tabs .tab a:hover {
-  background-color: black;
-  color: #000;
+  background-color: white;
+  color: black;
 }
 
 .tabs .tab a.active {
-  background-color: rgb(0, 0, 0) !important;
-  color: #000;
+  background-color: white !important;
+  color: black;
 }
 
 .tabs .indicator {
   background-color: rgb(255, 255, 255) !important;
-  color: white !important;
+  color: black !important;
 }
 
 #test-swipe-1 {
   position: relative;
+  color: black;
 }
 
-#test-swipe-1 {
+#test-swipe-1 button {
   position: absolute;
   height: 7rem !important;
-  top: 45%;
-  left: 48%;
+  top: 75%;
+  left: 40%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #333333;
-  color: white;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 16px;
-  border-radius: 10rem !important;
 }
 
 #test-swipe-1 button:hover {
-  background-color: black;
+  background-color: white;
+  color: black !important;
 }
 #test-swipe-2 {
   position: relative;
@@ -316,38 +319,41 @@ img {
 #test-swipe-2 button {
   position: absolute;
   height: 7rem !important;
-  top: 45%;
-  left: 48%;
+  top: 75%;
+  left: 40%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #333333;
+  background-color: black;
   color: white;
   font-size: 16px;
-  border-radius: 10rem !important;
 }
 
 #test-swipe-2 button:hover {
-  background-color: black;
+  background-color: white;
+  color: black;
 }
 #test-swipe-3 {
   position: relative;
 }
 
+.tabs {
+  margin-left: 15rem !important;
+}
 #test-swipe-3 button {
   position: absolute;
   height: 7rem !important;
-  top: 45%;
-  left: 48%;
+  top: 75%;
+  left: 40%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #333333;
+  background-color: black;
   color: white;
   font-size: 16px;
-  border-radius: 10rem !important;
 }
 
 #test-swipe-3 button:hover {
-  background-color: black;
+  background-color: white;
+  color: black !important;
 }
 
 .smecherie {
@@ -355,37 +361,115 @@ img {
 }
 
 .talent img {
-  margin-left: 12rem !important;
+  margin-left: 21rem !important;
 }
 
 .alunelu {
-  margin-top: 10rem !important;
+  margin-top: 0rem !important;
   font-family: "UnboundPro-bold";
 }
 
-.borderXwidth a:before,
-.borderXwidth a:after {
-  position: absolute;
-  opacity: 0;
-  width: 0%;
-  height: 2px;
-  content: "";
-  background: #fff;
-  transition: all 0.3s;
+.talent2 img {
+  margin-left: 10rem !important;
 }
 
-.borderXwidth a:before {
-  left: 0px;
-  top: 0px;
+.talent3 img {
+  margin-left: 10rem !important;
 }
 
-.borderXwidth a:after {
-  right: 0px;
-  bottom: 0px;
+.talent2 img,
+.talent3 img {
+  margin-left: 20rem !important;
+}
+.text-swipe-1 a:hover,
+.text-swipe-2 a:hover,
+.text-swipe-3 a:hover {
+  /* border-bottom: 2px solid white !important; */
+  border-top: 2px solid white !important;
+  transition: cubic-bezier(0.77, 0, 0.175, 1) 0.2s;
 }
 
-.borderXwidth a:hover:before,
-.borderXwidth a:hover:after {
-  opacity: 1;
-  width: 100%;
+.tabs .tab a:hover,
+.tabs .tab a.active {
+  background-color: transparent;
+  color: grey !important;
+}
+
+.buton {
+  border: black 2px solid !important;
+}
+
+.branzet {
+  font-size: 1.7rem !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 630px) {
+  .button {
+    margin-left: -10rem !important;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #test-swipe-1 img {
+    margin-left: -3rem !important;
+    width: 120% !important;
+    height: 100% !important;
+  }
+  #test-swipe-2 img {
+    margin-left: -3rem !important;
+    width: 120% !important;
+    height: 100% !important;
+  }
+  #test-swipe-3 img {
+    margin-left: -3rem !important;
+    width: 120% !important;
+    height: 100% !important;
+  }
+
+  #test-swipe-1 button {
+    position: absolute;
+    height: 7rem !important;
+    top: 150%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+  #test-swipe-2 button {
+    position: absolute;
+    height: 7rem !important;
+    top: 150%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+  #test-swipe-3 button {
+    position: absolute;
+    height: 7rem !important;
+    top: 150%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+
+  .branzet {
+    font-size: 1rem !important;
+  }
+  .tabs {
+    margin-left: 1rem !important;
+    font-size: 0.1rem !important;
+  }
+
+  .configurator2 {
+    padding-left: 4rem !important;
+  }
 }
