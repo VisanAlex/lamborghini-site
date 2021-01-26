@@ -12,10 +12,38 @@ nav {
   position: fixed;
   z-index: 10;
 }
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.modele img {
+  width: 70% !important;
+  height: 55% !important;
+  margin-top: 15rem !important;
+}
+.aventador4 {
+  margin-left: -10rem !important;
+}
+
+ul:not(.browser-default) {
+  list-style-type: none;
+  padding-left: initial !important;
+}
+
+.modele li {
+  background-color: black !important;
+}
+
+.modele {
+  height: 500px !important;
+}
 body {
   background-color: black !important;
 }
 
+.tabs {
+  max-width: 88.2% !important;
+}
 .logo {
   width: 30px !important;
   height: 30px !important;
