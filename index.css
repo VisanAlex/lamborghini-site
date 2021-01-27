@@ -171,6 +171,11 @@ img {
     margin-left: -3.9rem !important;
   }
 
+  .modele img {
+    max-width: 100% !important;
+    margin-left: -3rem !important;
+  }
+
   .iconhuracan {
     margin-left: 8rem !important;
   }
@@ -182,6 +187,11 @@ img {
   .iconhuracan2 {
     margin-left: -30rem !important;
     position: 0;
+  }
+
+  .aventador5 {
+    margin-right: 4rem !important;
+    font-size: 2rem !important;
   }
 
   .huracan2 {
@@ -250,6 +260,11 @@ img {
     height: 300px !important;
   }
 
+  .slider2 {
+    width: 450px !important;
+    margin-left: -0.5rem !important;
+  }
+
   .card-title {
     margin-right: 6rem !important;
   }
@@ -276,8 +291,23 @@ img {
 
   .urus {
     margin-top: 2rem !important;
-    font-size: 3.5rem !important;
+    font-size: 2.8rem !important;
     margin-left: 2rem !important;
+  }
+
+  .urus2 {
+    font-size: 1.3rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .urus5 {
+    font-size: 0.9rem !important;
+    margin-right: 1rem !important;
+  }
+
+  .aventador5 {
+    margin-top: -1rem !important;
+    margin-right: 5rem !important;
   }
 
   .aventador {
